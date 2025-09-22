@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  tiddlywiki-mws:
+    build:
+      context: .
+    ports:
+      - "9045:9045"
+    container_name: tiddlywiki-mws
+    restart: unless-stopped
+    volumes:
+      - ./store:/app/data/store
