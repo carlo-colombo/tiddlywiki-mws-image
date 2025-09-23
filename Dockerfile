@@ -1,6 +1,6 @@
 
 
-FROM node:22
+FROM node:24
 WORKDIR /app
 # Initialize TiddlyWiki MWS in 'my-folder'
 RUN npm init @tiddlywiki/mws@0.1.14 data
