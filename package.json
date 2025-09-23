@@ -1,5 +1,12 @@
 {
+  "name": "@tiddlywiki/mws-instance",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start": "mws listen --listener"
+  },
   "dependencies": {
-    "@tiddlywiki/mws": "^0.1.12"
+    "@tiddlywiki/mws": "0.1.14",
+    "tiddlywiki": "5.3.8"
   }
 }

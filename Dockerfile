@@ -1,9 +1,12 @@
 
 
 FROM node:24
-WORKDIR /app
+WORKDIR /app/data
 # Initialize TiddlyWiki MWS in 'my-folder'
-RUN npm init @tiddlywiki/mws@0.1.14 data
+
+ADD package.json package-lock.json ./
+
+RUN npm ci
 WORKDIR /app/data
 EXPOSE 9045
 # Start the listener on port 9045
