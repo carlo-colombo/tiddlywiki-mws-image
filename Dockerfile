@@ -1,6 +1,6 @@
 
 
-FROM node:24
+FROM node:25
 WORKDIR /app/data
 # Initialize TiddlyWiki MWS in 'my-folder'
 
