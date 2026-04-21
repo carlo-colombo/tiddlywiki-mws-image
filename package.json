@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "@tiddlywiki/mws": "0.1.14",
-    "tiddlywiki": "5.3.8"
+    "tiddlywiki": "5.4.0"
   }
 }
